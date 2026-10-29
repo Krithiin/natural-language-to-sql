@@ -1,0 +1,28 @@
+{
+  "project": "Natural Language to SQL Generation",
+  "dataset": "b-mc2/sql-create-context",
+  "sample_size": 1000,
+  "train_size": 800,
+  "validation_size": 100,
+  "test_size": 100,
+  "base_model": "google/flan-t5-small",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "fine_tuning": "LoRA (PEFT)",
+  "base_exact_match": 0.0,
+  "finetuned_exact_match": 0.1,
+  "training_metrics": {
+    "train_runtime": 323.0867,
+    "train_samples_per_second": 2.476,
+    "train_steps_per_second": 1.238,
+    "total_flos": 22887189983232.0,
+    "train_loss": 1.2692702341079711,
+    "epoch": 1.0
+  },
+  "validation_metrics": {
+    "eval_loss": 0.4922848045825958,
+    "eval_runtime": 16.435,
+    "eval_samples_per_second": 6.085,
+    "eval_steps_per_second": 3.042,
+    "epoch": 1.0
+  }
+}

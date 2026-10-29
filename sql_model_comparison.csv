@@ -1,0 +1,3 @@
+Model,Exact-match accuracy
+Base FLAN-T5-small,0.0
+FLAN-T5-small + LoRA,0.1
