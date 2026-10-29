@@ -1,0 +1,11 @@
+
+streamlit
+torch
+numpy
+datasets
+sentence-transformers
+scikit-learn
+transformers
+peft
+accelerate
+sentencepiece
